@@ -69,26 +69,32 @@ Agent
  - email: agent@email.com
  - password: examplepassword
 ### Docker
+
+To simply run the image hosted on docker hub, just run the following command
+
+```sh
+docker run viscousguy/theloanusurer:1.0
+```
+If you want to build it yourself then follow the following commands: 
 The Loan Usurer is very easy to install and deploy in a Docker container.
 
-By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
+By default, the Docker will expose port 9000, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
 
 ```sh
-cd dillinger
-docker build -t joemccann/dillinger:${package.json.version} .
+docker build -d {user_name}/theloanusurer:1.0 .
 ```
-This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out `${package.json.version}` with the actual version of Dillinger.
+This will create the theLoanUsurer image and pull in the necessary dependencies. Be sure to swap out `{user_name}` with your repo name.
 
-Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 9000 of the host to port 9000 of the Docker (or whatever port was exposed in the Dockerfile):
 
 ```sh
-docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}
+docker run -p 9000:9080  <youruser>/theloanusurer:1.0
 ```
 
 Verify the deployment by navigating to your server address in your preferred browser.
 
 ```sh
-127.0.0.1:8000
+127.0.0.1:9000
 ```
 ### FAQs
 
