@@ -47,7 +47,7 @@ The Loan Usurer requires [Node.js](https://nodejs.org/) v12.10+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd theLoanUsurer
+
 $ npm install -d
 $ npm run start
 ```
@@ -70,10 +70,14 @@ Agent
  - password: examplepassword
 ### Docker
 
-To simply run the image hosted on docker hub, just run the following command
+To simply run the image hosted on docker hub, just run the following commands
 
 ```sh
-docker run viscousguy/theloanusurer:1.0
+docker pull viscousguy/theloanusurer:1.0
+```
+
+```sh
+docker run -p 9000:9000 viscousguy/theloanusurer:1.0
 ```
 If you want to build it yourself then follow the following commands: 
 The Loan Usurer is very easy to install and deploy in a Docker container.
