@@ -35,7 +35,7 @@ The Loan Usurer uses a number of open source projects to work properly:
 * [MongoDB](https://www.mongodb.com//) - cross-platform document-oriented database program
 * [Postman](https://www.postman.com/) - the collaboration platform for API development and testing
 * [Mongoose](https://mongoosejs.com/) - elegant mongodb object modeling for node.js
-And of course The Loan Usurer itself is open source with a [public repository][dill]
+And of course The Loan Usurer itself is open source with a [public repository](https://github.com/ViscousGuy/theLoanUsurer)
  on GitHub.
 
 ### Installation
