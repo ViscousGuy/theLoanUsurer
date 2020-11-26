@@ -6,6 +6,10 @@
 The Loan Usurer is a minimal RESTful Loan Management API powered by Express, A lightweight web framework for Nodejs.
 
   
+### Documentation and Test Cases for the API
+
+(https://documenter.getpostman.com/view/13639023/TVmFmgik)
+
 
 #  Features!
 
@@ -20,18 +24,14 @@ You can also:
   - Reset or update password.
   - Send welcome email to user's email id once user has registered.
   
-### Documentation and Test Cases for the API
-
-(https://documenter.getpostman.com/view/13639023/TVmFmgik)
-
 
 
 ### Tech
 
 The Loan Usurer uses a number of open source projects to work properly:
 
-* [node.js]- evented I/O for the backend
-* [Express] - fast node.js network app framework 
+* [node.js](https://nodejs.org/en/)- evented I/O for the backend
+* [Express](https://expressjs.com/) - fast node.js network app framework 
 * [MongoDB](https://www.mongodb.com//) - cross-platform document-oriented database program
 * [Postman](https://www.postman.com/) - the collaboration platform for API development and testing
 * [Mongoose](https://mongoosejs.com/) - elegant mongodb object modeling for node.js
