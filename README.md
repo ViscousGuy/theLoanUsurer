@@ -119,7 +119,7 @@ Verify the deployment by navigating to your server address in your preferred bro
 ### Additional Note
 
 I have included the env confirguration file too with the project which contains database configuration ( Mongo Atlas ). It will ease the spawning of database server on the cloud and thereby eliminating additional config of the db. Though, It is for testing purpose only and the credentials will expire in one month starting from the date when this project was first released. 
-The jwt token is also temporary for testing purpose and will expire by next month starting from the project release date.
+The secret key for jwt is also temporary for testing purpose and will expire by next month starting from the project release date.
 ### Todos
 
  - Design the frontend using ReactJS.
